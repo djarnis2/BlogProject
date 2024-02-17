@@ -46,4 +46,8 @@ public class database {
             }
         }
     }
+
+    public Connection getConnection() {
+        return connection;
+    }
 }

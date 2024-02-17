@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 public class BlogApplication {
-    public static database db = new database("localhost", "root", "dasd", "blog", 3306)
+    public static database db = new database("localhost", "root", "dasd", "blog", 3306);
 
     public static void main(String[] args) {
 
