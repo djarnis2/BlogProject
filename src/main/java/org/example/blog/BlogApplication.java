@@ -17,6 +17,7 @@ public class BlogApplication {
             SQLGetter sqlGetter = new SQLGetter();
             sqlGetter.createTable();
             sqlGetter.createBlog();
+            db.disconnect();
         }
 
     }
